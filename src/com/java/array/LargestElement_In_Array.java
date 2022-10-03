@@ -2,7 +2,7 @@ package com.java.array;
 
 import java.util.Scanner;
 
-// 3) Java Program to print the largest element in an array
+// 3)code to print the largest element in an array
 //   =====================================================
 
 public class LargestElement_In_Array {
