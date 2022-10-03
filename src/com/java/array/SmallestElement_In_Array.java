@@ -3,7 +3,7 @@ package com.java.array;
 import java.util.Scanner;
 
 // 3) code to print the smallest element in an array
-//   ===================================================
+//   =================================================
 
 public class SmallestElement_In_Array {
     public static void main(String args[]) {
