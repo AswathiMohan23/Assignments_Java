@@ -2,6 +2,9 @@ package com.java.array;
 
 import java.util.Scanner;
 
+//Java Program to print the elements of an array present on odd position
+//======================================================================
+
 public class Elements_In_OddPosition {
     public static void main(String[] args) {
         System.out.println("enter the size of an array : ");
