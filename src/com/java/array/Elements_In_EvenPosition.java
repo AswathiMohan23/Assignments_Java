@@ -15,12 +15,9 @@ public class Elements_In_EvenPosition {
         for(int i =0;i<size;i++){
             inputArray[i]=sc.nextInt();
         }
-        int even[]=new int[size];
-        for(int j=0;j<size;j++){
-            if(inputArray[j]%2==0){
-                even[j]=inputArray[j];
-                System.out.println("the elements in the even positions are, position "+j+" : "+even[j]);
-            }
+        System.out.println("the elements in the even positions are : ");
+        for (int j = 0; j < size; j = j+2) {
+            System.out.println("even position " + j + " : element = " + inputArray[j]);
+        }
         }
     }
-}
