@@ -27,9 +27,7 @@ public class AscendingOrder {
                     input[j] = number;
                 }
             }
-        }
-        System.out.println();
-        //Displaying elements of array after sorting
+        }//Displaying elements of array after sorting
         System.out.println("Elements of array sorted in ascending order: ");
         for (int i = 0; i < input.length; i++) {
             System.out.print(input[i] + " ");
