@@ -15,7 +15,6 @@ public class Elements_In_OddPosition {
         for (int i = 0; i < size; i++) {
             inputArray[i] = sc.nextInt();
         }
-        int odd[] = new int[size];
         System.out.println("the elements in the odd positions are : ");
         for (int j = 1; j < size; j = j+2) {
             System.out.println("odd position " + j + " : element = " + inputArray[j]);
