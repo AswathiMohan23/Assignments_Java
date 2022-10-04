@@ -24,15 +24,12 @@ public class Frequency_Of_An_Element {
                     count++;
                     frequency[j] = 0;
                 }
-            }
-            // Stores the frequency of each element
+            }// Stores the frequency of each element
             if(frequency[i]!=0)
             {
                 frequency[i] = count;
             }
-        }
-
-        // Prints the elements with their occurences
+        }// Prints the elements with their occurences
         System.out.println("The elements and their occurences are");
         for(int i = 0; i<arr.length;i++)
         {
